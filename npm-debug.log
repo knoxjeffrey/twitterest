@@ -1,0 +1,136 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/knoxjeffrey/.nvm/v0.10.40/bin/node',
+1 verbose cli   '/Users/knoxjeffrey/.nvm/v0.10.40/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'react-addons-test-utils' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 warn package.json twitterest@1.0.0 No description
+5 warn package.json twitterest@1.0.0 No repository field.
+6 warn package.json twitterest@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'react-addons-test-utils', null ]
+9 verbose cache add name=undefined spec="react-addons-test-utils" args=["react-addons-test-utils",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'react-addons-test-utils',
+10 verbose parsed url   path: 'react-addons-test-utils',
+10 verbose parsed url   href: 'react-addons-test-utils' }
+11 silly lockFile cc57521a-react-addons-test-utils react-addons-test-utils
+12 verbose lock react-addons-test-utils /Users/knoxjeffrey/.npm/cc57521a-react-addons-test-utils.lock
+13 silly lockFile cc57521a-react-addons-test-utils react-addons-test-utils
+14 silly lockFile cc57521a-react-addons-test-utils react-addons-test-utils
+15 verbose addNamed [ 'react-addons-test-utils', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile a2ad391e-react-addons-test-utils react-addons-test-utils@
+18 verbose lock react-addons-test-utils@ /Users/knoxjeffrey/.npm/a2ad391e-react-addons-test-utils.lock
+19 silly addNameRange { name: 'react-addons-test-utils', range: '*', hasData: false }
+20 verbose request where is /react-addons-test-utils
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 87c8d56a9c19ef81
+23 verbose url raw /react-addons-test-utils
+24 verbose url resolving [ 'https://registry.npmjs.org/', './react-addons-test-utils' ]
+25 verbose url resolved https://registry.npmjs.org/react-addons-test-utils
+26 verbose request where is https://registry.npmjs.org/react-addons-test-utils
+27 info trying registry request attempt 1 at 13:33:48
+28 verbose etag "3N86LSAAH36X85JFZS6GSZ80A"
+29 http GET https://registry.npmjs.org/react-addons-test-utils
+30 http 304 https://registry.npmjs.org/react-addons-test-utils
+31 silly registry.get cb [ 304,
+31 silly registry.get   { date: 'Wed, 16 Sep 2015 12:33:48 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     'cache-control': 'max-age=60',
+31 silly registry.get     etag: '"3N86LSAAH36X85JFZS6GSZ80A"',
+31 silly registry.get     age: '0',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-lhr6333-LHR',
+31 silly registry.get     'x-cache': 'MISS',
+31 silly registry.get     'x-cache-hits': '0',
+31 silly registry.get     'x-timer': 'S1442406828.720925,VS0,VE397',
+31 silly registry.get     vary: 'Accept' } ]
+32 verbose etag https://registry.npmjs.org/react-addons-test-utils from cache
+33 silly addNameRange number 2 { name: 'react-addons-test-utils', range: '*', hasData: true }
+34 silly addNameRange versions [ 'react-addons-test-utils',
+34 silly addNameRange   [ '0.14.0-beta2', '0.14.0-beta3', '0.14.0-rc1' ] ]
+35 verbose addNamed [ 'react-addons-test-utils', '0.14.0-rc1' ]
+36 verbose addNamed [ '0.14.0-rc1', '0.14.0-rc1' ]
+37 silly lockFile 9bbae41b-act-addons-test-utils-0-14-0-rc1 react-addons-test-utils@0.14.0-rc1
+38 verbose lock react-addons-test-utils@0.14.0-rc1 /Users/knoxjeffrey/.npm/9bbae41b-act-addons-test-utils-0-14-0-rc1.lock
+39 silly lockFile 9bbae41b-act-addons-test-utils-0-14-0-rc1 react-addons-test-utils@0.14.0-rc1
+40 silly lockFile 9bbae41b-act-addons-test-utils-0-14-0-rc1 react-addons-test-utils@0.14.0-rc1
+41 silly lockFile a2ad391e-react-addons-test-utils react-addons-test-utils@
+42 silly lockFile a2ad391e-react-addons-test-utils react-addons-test-utils@
+43 silly resolved [ { name: 'react-addons-test-utils',
+43 silly resolved     version: '0.14.0-rc1',
+43 silly resolved     main: 'index.js',
+43 silly resolved     license: 'BSD-3-Clause',
+43 silly resolved     peerDependencies: { react: '^0.14.0-rc1' },
+43 silly resolved     description: 'This package provides the React TestUtils add-on. See http://facebook.github.io/react/docs/addons.html for more information.',
+43 silly resolved     _id: 'react-addons-test-utils@0.14.0-rc1',
+43 silly resolved     _shasum: '04eae6058b3d53f478b398d37dccdd5c6f97fc88',
+43 silly resolved     _resolved: 'https://registry.npmjs.org/react-addons-test-utils/-/react-addons-test-utils-0.14.0-rc1.tgz',
+43 silly resolved     _from: 'react-addons-test-utils@',
+43 silly resolved     scripts: {},
+43 silly resolved     _npmVersion: '2.2.0',
+43 silly resolved     _nodeVersion: '0.10.35',
+43 silly resolved     _npmUser: { name: 'spicyj', email: 'ben@benalpert.com' },
+43 silly resolved     maintainers: [ [Object], [Object] ],
+43 silly resolved     dist:
+43 silly resolved      { shasum: '04eae6058b3d53f478b398d37dccdd5c6f97fc88',
+43 silly resolved        tarball: 'http://registry.npmjs.org/react-addons-test-utils/-/react-addons-test-utils-0.14.0-rc1.tgz' },
+43 silly resolved     directories: {},
+43 silly resolved     readme: 'ERROR: No README data found!' } ]
+44 info install react-addons-test-utils@0.14.0-rc1 into /Users/knoxjeffrey/React/twitterest
+45 info installOne react-addons-test-utils@0.14.0-rc1
+46 verbose node_modules/react-addons-test-utils unbuild
+47 verbose tar unpack /Users/knoxjeffrey/.npm/react-addons-test-utils/0.14.0-rc1/package.tgz
+48 silly lockFile d734cb11--modules-react-addons-test-utils tar:///Users/knoxjeffrey/React/twitterest/node_modules/react-addons-test-utils
+49 verbose lock tar:///Users/knoxjeffrey/React/twitterest/node_modules/react-addons-test-utils /Users/knoxjeffrey/.npm/d734cb11--modules-react-addons-test-utils.lock
+50 silly lockFile 6e63b0ad-est-utils-0-14-0-rc1-package-tgz tar:///Users/knoxjeffrey/.npm/react-addons-test-utils/0.14.0-rc1/package.tgz
+51 verbose lock tar:///Users/knoxjeffrey/.npm/react-addons-test-utils/0.14.0-rc1/package.tgz /Users/knoxjeffrey/.npm/6e63b0ad-est-utils-0-14-0-rc1-package-tgz.lock
+52 silly gunzTarPerm modes [ '755', '644' ]
+53 silly gunzTarPerm extractEntry package.json
+54 silly gunzTarPerm extractEntry README.md
+55 silly gunzTarPerm extractEntry LICENSE
+56 silly gunzTarPerm extractEntry index.js
+57 silly gunzTarPerm extractEntry PATENTS
+58 silly lockFile d734cb11--modules-react-addons-test-utils tar:///Users/knoxjeffrey/React/twitterest/node_modules/react-addons-test-utils
+59 silly lockFile d734cb11--modules-react-addons-test-utils tar:///Users/knoxjeffrey/React/twitterest/node_modules/react-addons-test-utils
+60 silly lockFile 6e63b0ad-est-utils-0-14-0-rc1-package-tgz tar:///Users/knoxjeffrey/.npm/react-addons-test-utils/0.14.0-rc1/package.tgz
+61 silly lockFile 6e63b0ad-est-utils-0-14-0-rc1-package-tgz tar:///Users/knoxjeffrey/.npm/react-addons-test-utils/0.14.0-rc1/package.tgz
+62 info preinstall react-addons-test-utils@0.14.0-rc1
+63 verbose readDependencies using package.json deps
+64 verbose readDependencies using package.json deps
+65 silly resolved []
+66 verbose about to build /Users/knoxjeffrey/React/twitterest/node_modules/react-addons-test-utils
+67 info build /Users/knoxjeffrey/React/twitterest/node_modules/react-addons-test-utils
+68 verbose linkStuff [ false,
+68 verbose linkStuff   false,
+68 verbose linkStuff   false,
+68 verbose linkStuff   '/Users/knoxjeffrey/React/twitterest/node_modules' ]
+69 info linkStuff react-addons-test-utils@0.14.0-rc1
+70 verbose linkBins react-addons-test-utils@0.14.0-rc1
+71 verbose linkMans react-addons-test-utils@0.14.0-rc1
+72 verbose rebuildBundles react-addons-test-utils@0.14.0-rc1
+73 info install react-addons-test-utils@0.14.0-rc1
+74 info postinstall react-addons-test-utils@0.14.0-rc1
+75 verbose readDependencies using package.json deps
+76 verbose already installed skipping react@^0.14.0-rc1 /Users/knoxjeffrey/React/twitterest
+77 silly resolved []
+78 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+78 error peerinvalid Peer react-addons-test-utils@0.14.0-rc1 wants react@^0.14.0-rc1
+79 error System Darwin 14.5.0
+80 error command "/Users/knoxjeffrey/.nvm/v0.10.40/bin/node" "/Users/knoxjeffrey/.nvm/v0.10.40/bin/npm" "install" "--save-dev" "react-addons-test-utils"
+81 error cwd /Users/knoxjeffrey/React/twitterest
+82 error node -v v0.10.40
+83 error npm -v 1.4.28
+84 error code EPEERINVALID
+85 verbose exit [ 1, true ]
